@@ -1,0 +1,13 @@
+body{
+  background-image: url("../images/backg.jpg");
+  background-size: cover;
+}
+
+.blueback{
+  background-color: #74aedb;
+}
+
+nav, nav-link{
+  background-color: #3d5a98;
+  color: #fdf895;
+}
