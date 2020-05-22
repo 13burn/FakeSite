@@ -22,6 +22,9 @@ nav, nav-link{
   margin: auto;
 
 }
+.card-deck{
+  display: inline-block;
+}
 
 .counter{
   font-size: 250px;
