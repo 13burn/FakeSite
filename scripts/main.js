@@ -127,4 +127,15 @@ $(document).ready(function(){
 
   });
 
+  if (window.screen.availWidth < 500){
+    $(".counter").css("font-size", "150px");
+    $("iframe").attr("width", window.screen.availWidth-30);
+  }else{
+    $(".counter").css("font-size", "250px");
+
+  }
+
+    console.log(window.screen.availWidth)
+
+
 })
