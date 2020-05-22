@@ -11,3 +11,18 @@ nav, nav-link{
   background-color: #3d5a98;
   color: #fdf895;
 }
+
+.calculator{
+  width: auto;
+  display: inline-block;
+  background-color: #74aedb;
+  border: none;
+  vertical-align: middle;
+  height: auto;
+  margin: auto;
+
+}
+
+.counter{
+  font-size: 250px;
+}

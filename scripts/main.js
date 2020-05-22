@@ -23,6 +23,8 @@ $(document).ready(function(){
   $("#what").css({"color":"#d76b73", "background-color":"#74aedb"})
 
   $("#q1").click(function(){
+    $(".nav-link").css({"background-color": "#3d5a98", "color": "#fdf895"});
+    $("#dropdownMenuButton").css({"color":"#d76b73", "background-color":"#74aedb"})
     $(".jumbocontent").hide()
       $("#title").text(faq["q1"].title);
       $("#content").html(faq["q1"].content);
@@ -31,63 +33,78 @@ $(document).ready(function(){
 
 
   $("#q2").click(function(){
+    $(".nav-link").css({"background-color": "#3d5a98", "color": "#fdf895"});
+    $("#dropdownMenuButton").css({"color":"#d76b73", "background-color":"#74aedb"});
     $(".jumbocontent").hide()
-      $("#title").text(faq["q2"].title);
-      $("#content").html(faq["q2"].content);
+    $("#title").text(faq["q2"].title);
+    $("#content").html(faq["q2"].content);
     $("#faq").show("slow");
-    });
+  });
 
 
   $("#q3").click(function(){
+    $(".nav-link").css({"background-color": "#3d5a98", "color": "#fdf895"});
+    $("#dropdownMenuButton").css({"color":"#d76b73", "background-color":"#74aedb"});
     $(".jumbocontent").hide()
-      $("#title").text(faq["q3"].title);
-      $("#content").html(faq["q3"].content);
+    $("#title").text(faq["q3"].title);
+    $("#content").html(faq["q3"].content);
     $("#faq").show("slow");
-    });
+  });
 
 
   $("#q4").click(function(){
+    $(".nav-link").css({"background-color": "#3d5a98", "color": "#fdf895"});
+    $("#dropdownMenuButton").css({"color":"#d76b73", "background-color":"#74aedb"});
     $(".jumbocontent").hide()
-      $("#title").text(faq["q4"].title);
-      $("#content").html(faq["q4"].content);
+    $("#title").text(faq["q4"].title);
+    $("#content").html(faq["q4"].content);
     $("#faq").show("slow");
-    });
+  });
 
 
   $("#q5").click(function(){
+    $(".nav-link").css({"background-color": "#3d5a98", "color": "#fdf895"});
+    $("#dropdownMenuButton").css({"color":"#d76b73", "background-color":"#74aedb"});
     $(".jumbocontent").hide()
-      $("#title").text(faq["q5"].title);
-      $("#content").html(faq["q5"].content);
+    $("#title").text(faq["q5"].title);
+    $("#content").html(faq["q5"].content);
     $("#faq").show("slow");
-    });
+  });
 
 
   $("#q6").click(function(){
+    $(".nav-link").css({"background-color": "#3d5a98", "color": "#fdf895"});
+    $("#dropdownMenuButton").css({"color":"#d76b73", "background-color":"#74aedb"});
     $(".jumbocontent").hide()
-      $("#title").text(faq["q6"].title);
-      $("#content").html(faq["q6"].content);
+    $("#title").text(faq["q6"].title);
+    $("#content").html(faq["q6"].content);
     $("#faq").show("slow");
-    });
+  });
 
 
   $("#q7").click(function(){
+    $(".nav-link").css({"background-color": "#3d5a98", "color": "#fdf895"});
+    $("#dropdownMenuButton").css({"color":"#d76b73", "background-color":"#74aedb"});
     $(".jumbocontent").hide()
-      $("#title").text(faq["q7"].title);
-      $("#content").html(faq["q7"].content);
+    $("#title").text(faq["q7"].title);
+    $("#content").html(faq["q7"].content);
     $("#faq").show("slow");
-    });
+  });
 
 
   $("#q8").click(function(){
+    $(".nav-link").css({"background-color": "#3d5a98", "color": "#fdf895"});
+    $("#dropdownMenuButton").css({"color":"#d76b73", "background-color":"#74aedb"});
     $(".jumbocontent").hide()
-      $("#title").text(faq["q8"].title);
-      $("#content").html(faq["q8"].content);
+    $("#title").text(faq["q8"].title);
+    $("#content").html(faq["q8"].content);
     $("#faq").show("slow");
-    });
+  });
 
 
 
   $("#what").click(function(){
+    $(".nav-link").css({"background-color": "#3d5a98", "color": "#fdf895"});
     $("#what").css({"color":"#d76b73", "background-color":"#74aedb"})
     $(".jumbocontent").hide("slow");
     $("#whatis").show("slow");
@@ -95,6 +112,7 @@ $(document).ready(function(){
   });
 
   $("#calc").click(function(){
+    $(".nav-link").css({"background-color": "#3d5a98", "color": "#fdf895"});
     $("#calc").css({"color":"#d76b73", "background-color":"#74aedb"})
 
     $(".jumbocontent").hide("slow");
@@ -102,7 +120,8 @@ $(document).ready(function(){
   });
 
   $("#aboutus").click(function(){
-    $("#what").css({"color":"#d76b73", "background-color":"#74aedb"})
+    $(".nav-link").css({"background-color": "#3d5a98", "color": "#fdf895"});
+    $("#aboutus").css({"color":"#d76b73", "background-color":"#74aedb"})
     $(".jumbocontent").hide("slow");
     $("#about").show("slow");
 

@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="styles/main.css" >
   </head>
   <body>
-    <!-- slider container -->
+    <!-- top navbar -->
 
     <nav class="nav">
       <a class="nav-link" id="what" href="#">What is Keto?</a>
@@ -29,36 +29,41 @@
         </div>
       </div>
     </nav>
-
+<!-- basically all the content -->
     <div class="jumbotron jumbotron-fluid blueback" id="down">
+      <!-- what is keto container -->
       <div class="container">
         <div class="jumbocontent" id="whatis">
           <h1 class="display-4">What is Keto?</h1>
-
           <iframe width="560" height="315" src="https://www.youtube.com/embed/W63LJ5btxtA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      <!-- bmi calculator (incomplete) -->
+        <div class="jumbocontent card-deck" id="bmi">
+          <div class="card calculator blueback">
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Height in cm</label>
+                <input type="number" class="form-control" id="InputHeight" aria-describedby="emailHelp">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Weight in Kg</label>
+                <input type="number" class="form-control" id="Inputweight">
+              </div>
+              <button type="submit" class="btn btn-primary" id="calculate">Calculate BMI</button>
+            </form>
+          </div>
+          <div class="card calculator blueback">
+            <span class="counter" >0</span>
+          </div>
+
 
         </div>
-
-        <div class="jumbocontent" id="bmi">
-          <form>
-            <div class="form-group">
-              <label for="exampleInputEmail1">Height in cm</label>
-              <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            </div>
-            <div class="form-group">
-              <label for="exampleInputPassword1">Weight in Kg</label>
-              <input type="number" class="form-control" id="exampleInputPassword1">
-            </div>
-            <button type="submit" class="btn btn-primary">Calculate BMI</button>
-          </form>
-
-        </div>
-
+        <!-- faq container -->
         <div class="jumbocontent" id="faq">
           <h1 class="display-4" id="title">Fluid jumbotron</h1>
           <p class="lead" id="content">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
         </div>
-
+        <!-- fake doctors container -->
         <div class="jumbocontent" id="about">
           <div class="card-deck">
             <div class="card mb-3" style="max-width: 540px;">
@@ -98,12 +103,13 @@
       </div>
     </div>
 
-
+    <!-- just the scripts -->
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-      <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script type="text/javascript" src="scripts/main.js"></script>
+    <script src="scripts/counter.js"></script>
 
   </body>
 </html>
